@@ -11,7 +11,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 ![image](https://github.com/mukeshdj/Gaussian/assets/155506353/7cfbc104-66b4-42f9-a8ac-5571bd764678)
 
 ## Program:
-'''/*
+```/*
 Program to find the solution of a matrix using Gaussian Elimination.
 Developed by: MUKESH S
 RegisterNumber: 2305002016
@@ -38,8 +38,8 @@ for j in range(i+1,n):
 x[i]=x[i]-a[i][j]*x[j]
 x[i]=x[i]/a[i][i]
 for i in range(n):
-print('X%d =%0.2f' %(i,x[i]),end=' ')'''
-
+print('X%d =%0.2f' %(i,x[i]),end=' ')
+```
 ## Output:
 ![image](https://github.com/mukeshdj/Gaussian/assets/155506353/3d61226f-a7d0-4dbe-8e43-9c568a108cb6)
 ![image](https://github.com/mukeshdj/Gaussian/assets/155506353/3cfa322b-5c16-4b7d-b590-1ab95f6a6701)
