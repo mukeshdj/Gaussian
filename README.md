@@ -8,7 +8,21 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-![image](https://github.com/mukeshdj/Gaussian/assets/155506353/7cfbc104-66b4-42f9-a8ac-5571bd764678)
+1. Import numpy library using import statement.
+
+2. Import sys library
+
+3. Create a variable n to recieve to recieve dimention of the matrix.
+
+4. using input n,create a zero matrix 'a' of nx(n+1) and a zero row matrix 'x' of n using np.zeros().
+
+5. Initiate 1st nested for loop to get values from user and store it in the 'a' matrix using float(input()).
+
+6. Initiate 2nd nested for loop to apply gaussian elimination.
+
+7. Initiate 3rd nested for loop to calculate the solution of the 'a' matrix using back substitution.
+
+8. Display the solution for each variable upto 2 decimals using for loop and print() with '%' operator.
 
 ## Program:
 ```/*
@@ -41,10 +55,8 @@ for i in range(n):
 print('X%d =%0.2f' %(i,x[i]),end=' ')
 ```
 ## Output:
-![image](https://github.com/mukeshdj/Gaussian/assets/155506353/3d61226f-a7d0-4dbe-8e43-9c568a108cb6)
-![image](https://github.com/mukeshdj/Gaussian/assets/155506353/3cfa322b-5c16-4b7d-b590-1ab95f6a6701)
-
-
+![Screenshot 2024-05-22 214405](https://github.com/mukeshdj/Gaussian/assets/155506353/67ca2f69-64e9-4eb9-aefb-69f747b84da6)
+![image](https://github.com/mukeshdj/Gaussian/assets/155506353/48b13146-bf14-4190-9d38-b650ba43a58f)
 
 
 ## Result:
